@@ -1,0 +1,22 @@
+{
+  "name": "js_gallery_modal_practice",
+  "version": "1.0.0",
+  "description": "- Домашня робота розміщена на `GitHub Pages`\r - В консолі відсутні помилки і попередження під час відкриття живої сторінки завдання\r - Для HTTP-запитів використана бібліотека [axios](https://axios-http.com/)\r - Використовується синтаксис `async/await`\r - Для повідомлень використана бібліотека [notiflix](https://github.com/notiflix/Notiflix#readme).\r   Код відформатований за допомогою `Prettier`.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.13.2",
+    "parcel": "^2.13.2",
+    "sass": "^1.82.0"
+  },
+  "dependencies": {
+    "notiflix": "^3.2.7",
+    "simplelightbox": "^2.14.3"
+  }
+}
