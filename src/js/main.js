@@ -1,7 +1,6 @@
-// Описаний у документації
 import SimpleLightbox from 'simplelightbox';
-// Додатковий імпорт стилів
 import 'simplelightbox/dist/simple-lightbox.min.css';
+import axios from 'axios';
 
 const galleryLB = new SimpleLightbox('.gallery a');
 
@@ -29,15 +28,18 @@ searchForm.addEventListener('submit', (e) => {
 async function loadData(query = '') {
   try {
     showLoadingMessage();
-    const response = await fetch(
-      `${BASE_URL}?key=${API_KEY}${query ? `&q=${query}` : ''}`
-    );
+    const response = await axios.get(BASE_URL, {
+      params: {
+        key: API_KEY,
+        q: query || '',
+      },
+    });
 
-    if (response.ok) {
+    if (response.status === 200) {
       removeLoadingMessage();
       loadMoreBtn.classList.remove('load-more--hide');
 
-      const data = await response.json();
+      const data = response.data;
 
       gallery.innerHTML = renderCards(data.hits);
       galleryLB.refresh();
@@ -48,8 +50,6 @@ async function loadData(query = '') {
     removeLoadingMessage();
   }
 }
-
-// loadData();
 
 function showLoadingMessage() {
   const loadingMessage = document.createElement('p');
