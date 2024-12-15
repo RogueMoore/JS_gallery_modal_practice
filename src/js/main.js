@@ -12,43 +12,62 @@ const searchForm = document.querySelector('.search-form');
 const gallery = document.querySelector('.gallery');
 const loadMoreBtn = document.querySelector('.load-more');
 
+const perPage = 10;
+let currentPage = 1;
+let currentQuery = '';
+
 searchForm.addEventListener('submit', (e) => {
   e.preventDefault();
   const query = e.target.elements.searchQuery.value;
 
   if (!query) {
-    // errorMessage();
     Notiflix.Notify.failure('Enter search query and try again');
     return;
   }
 
-  loadData(query);
+  loadData(query, currentPage);
   e.target.reset();
 });
 
-async function loadData(query = '') {
+loadMoreBtn.addEventListener('click', () => {
+  currentPage++;
+  loadData(currentQuery, currentPage);
+});
+
+async function loadData(query, page) {
   try {
     showLoadingMessage();
+
     const response = await axios.get(BASE_URL, {
       params: {
         key: API_KEY,
-        q: query || '',
+        q: query,
+        page: page,
+        per_page: perPage,
       },
     });
 
     if (response.status === 200) {
-      removeLoadingMessage();
-      loadMoreBtn.classList.remove('load-more--hide');
-
       const data = response.data;
 
-      gallery.innerHTML = renderCards(data.hits);
+      if (data.hits.length === 0 && page === 1) {
+        Notiflix.Notify.failure(
+          'Sorry, there are no images matching your search query. Please, try again!'
+        );
+      }
+
+      removeLoadingMessage();
+      gallery.innerHTML += renderCards(data.hits);
       galleryLB.refresh();
+
+      if (data.hits.length < perPage) {
+        loadMoreBtn.classList.add('load-more--hide');
+      } else {
+        loadMoreBtn.classList.remove('load-more--hide');
+      }
     }
   } catch {
-    Notiflix.Notify.failure(
-      'Sorry, there are no images matching your search query. Please, try again!'
-    );
+    Notiflix.Notify.failure('Something went wrong. Please try again later.');
   } finally {
     removeLoadingMessage();
   }
