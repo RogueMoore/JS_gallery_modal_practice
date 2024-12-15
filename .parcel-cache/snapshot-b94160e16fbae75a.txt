@@ -8,7 +8,7 @@
 102C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\cosmiconfig\dist\index.d.ts133785002717741945 0
 119C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\caniuse-lite\data\features\css-gencontent.js133785002718700125 0
 120C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\caniuse-lite\data\features\wasm-tail-calls.js133785002721815836 0
-66C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\dist133787416991958316 1
+66C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\dist133787423382882066 1
 124C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\@parcel\source-map\parcel_sourcemap_wasm\dist-web133785002718153574 1
 82C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\globals133785002716364257 1
 83C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\escalade133785002716640473 1
@@ -90,7 +90,7 @@
 92C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\caniuse-lite\data133785002719484092 1
 101C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\@swc\helpers\esm\_using.js133785002718720225 0
 113C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\cosmiconfig\dist\getDirectory.d.ts.map133785002717345684 0
-76C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\src\js\main.js133787417057516714 0
+76C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\src\js\main.js133787423382039713 0
 106C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\caniuse-lite\data\regions\BI.js133785002717912206 0
 93C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\axios\dist\browser133787409497869431 1
 86C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\safe-buffer133785002716205417 1
@@ -975,7 +975,7 @@
 102C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\sass\types\value\index.d.ts133785006331928907 0
 117C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\source-map-js\lib\source-map-consumer.d.ts133785006330583837 0
 143C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\index.d.ts133785002716458538 0
-85C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\dist\index.2212206d.css133787416653542807 0
+85C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\dist\index.2212206d.css133787422750771306 0
 123C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\@parcel\runtime-js\src\helpers\get-worker-url.js133785002717092554 0
 97C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\domutils\lib\legacy.js133785002716640473 0
 116C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\source-map-js\lib\source-map-generator.js133785006330533844 0
@@ -1718,7 +1718,7 @@
 98C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\ordered-binary\index.js133785002716136166 0
 87C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\lmdb\LICENSE133785002716900445 0
 93C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\chokidar\README.md133785006330598847 0
-89C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\dist\index.2212206d.css.map133787416653562810 0
+89C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\dist\index.2212206d.css.map133787422750781286 0
 97C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\ordered-binary\LICENSE133785002715334721 0
 105C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\@parcel\watcher\src\DirTree.hh133785002717345684 0
 101C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\domutils\lib\legacy.js.map133785002717477301 0
@@ -3114,7 +3114,7 @@
 120C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\caniuse-lite\data\features\css-transitions.js133785002719110890 0
 120C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\caniuse-lite\data\features\css-unset-value.js133785002719120869 0
 118C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\caniuse-lite\data\features\css-variables.js133785002719130880 0
-89C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\dist\index.971c2ea4.css.map133787416653552810 0
+89C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\dist\index.971c2ea4.css.map133787422750781286 0
 118C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\caniuse-lite\data\features\css-when-else.js133785002719130880 0
 122C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\caniuse-lite\data\features\css-width-stretch.js133785002719140885 0
 113C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\caniuse-lite\data\features\css-zoom.js133785002719150882 0
@@ -4605,7 +4605,7 @@
 86C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\.bin\semver133785002724616943 0
 90C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\.bin\semver.cmd133785002724616943 0
 106C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\node_modules\.bin\update-browserslist-db.ps1133785002724745448 0
-84C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\dist\index.18dbc454.js133787416991948493 0
-88C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\dist\index.18dbc454.js.map133787416991958316 0
-85C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\dist\index.971c2ea4.css133787416653542807 0
-77C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\dist\index.html133787409617990392 0
+84C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\dist\index.18dbc454.js133787423382862041 0
+88C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\dist\index.18dbc454.js.map133787423382882066 0
+85C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\dist\index.971c2ea4.css133787422750761212 0
+77C:\Users\roguefeel\Desktop\Projects\JS_gallery_modal_practice\dist\index.html133787421988143069 0

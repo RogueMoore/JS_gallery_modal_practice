@@ -1,6 +1,7 @@
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 import axios from 'axios';
+import Notiflix from 'notiflix';
 
 const galleryLB = new SimpleLightbox('.gallery a');
 
@@ -45,7 +46,9 @@ async function loadData(query = '') {
       galleryLB.refresh();
     }
   } catch {
-    errorMessage();
+    Notiflix.Notify.failure(
+      'Sorry, there are no images matching your search query. Please, try again!'
+    );
   } finally {
     removeLoadingMessage();
   }
@@ -64,20 +67,6 @@ function removeLoadingMessage() {
   if (loadingMessage) {
     loadingMessage.remove();
   }
-}
-
-function errorMessage() {
-  const error = document.createElement('p');
-  error.textContent =
-    'Sorry, there are no images matching your search query. Please, try again!';
-  error.classList.add('error-message');
-
-  document.body.append(error);
-
-  setTimeout(() => {
-    error.classList.add('error-message--hide');
-    setTimeout(() => error.remove(), 1000);
-  }, 4000);
 }
 
 function createCard(card) {
